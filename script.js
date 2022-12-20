@@ -8,9 +8,11 @@ checkBtn.addEventListener(`click`, () => {
 
     if (strCheck == stringToCheck.value.toString()) {
         console.log("Palindrom");
+        document.querySelector(`.negativeResult`).innerHTML ="";
         document.querySelector(`.result`).innerHTML = "Palindrom";
     } else {
-        document.querySelector(`.result`).innerHTML = "NOT Palindrom";
+        document.querySelector(`.result`).innerHTML ="";
+        document.querySelector(`.negativeResult`).innerHTML = "NOT Palindrom";
         console.log("Not palindrom");
     }
 

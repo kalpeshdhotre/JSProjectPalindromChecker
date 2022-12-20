@@ -25,3 +25,11 @@
     width: 250px;
     text-align: center;
 }
+
+.negativeResult{
+    color: red;
+}
+
+.result{
+    color: greenyellow;
+}
